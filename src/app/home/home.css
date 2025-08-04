@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+ background-color: #213838; /* لون الخلفية الأخضر */
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 85vh;
+  
+}
+
+.profile {
+  text-align: center;
+  color: rgb(7, 7, 7);
+}
+
+.profile img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: #e2e7e9; /* خلفية دائرية */
+  padding: 10px;
+}
+
+.profile h1 {
+  margin: 20px 0 10px;
+  font-weight: bold;
+  color: #000000;
+}
+
+.profile hr {
+  width: 100px;
+  border: 1px solid #000000;
+  margin: 10px auto;
+  
+}
+
+.profile p {
+  font-size: 14px;
+  opacity: 0.8;
+  color: #000;
+}

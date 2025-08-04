@@ -1,0 +1,21 @@
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.gallery img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+}
+.profile {
+  text-align: center;
+  color: rgb(17, 45, 97);
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 12vh;
+}
